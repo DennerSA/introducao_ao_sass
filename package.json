@@ -1,0 +1,23 @@
+{
+  "name": "introducao_ao_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennerSA/introducao_ao_sass.git"
+  },
+  "author": "Denner SA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennerSA/introducao_ao_sass/issues"
+  },
+  "homepage": "https://github.com/DennerSA/introducao_ao_sass#readme",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
