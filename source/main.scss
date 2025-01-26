@@ -1,24 +1,7 @@
-$corPrincipal: #eee;
-$corDoSecundaria: #111;
+@use 'config/reset';
+@use 'secoes/produtos';
+@use 'config/cores';
 
 body {
-    background-color: $corPrincipal;
-}
-
-header {
-    background-color: $corPrincipal;
-
-    h1 {
-        color: $corDoSecundaria;
-    }
-}
-
-button {
-    padding: 16px;
-    background-color: $corDoSecundaria;
-    color: $corPrincipal;
-
-    &:hover {
-        background-color: yellow;
-    }
+    background-color: cores.$corDeFundo;
 }
